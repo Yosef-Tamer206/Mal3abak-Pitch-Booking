@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f2e20"/>
+      <stop offset="1" stop-color="#081a12"/>
+    </linearGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d9e52"/>
+      <stop offset="1" stop-color="#12733a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="620" fill="url(#bg)"/>
+  <circle cx="792.0" cy="74.39999999999999" r="90" fill="#ffffff" opacity="0.06"/>
+  <circle cx="90.0" cy="558.0" r="120" fill="#ffffff" opacity="0.05"/>
+  <g transform="translate(81.0,62.0)">
+    <rect width="738.0" height="496.0" rx="10" fill="url(#pitch)" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+    <line x1="369.0" y1="0" x2="369.0" y2="496.0" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+    <circle cx="369.0" cy="248.0" r="68.2" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+    <circle cx="369.0" cy="248.0" r="4" fill="#ffffff"/>
+    <rect x="0" y="136.4" width="81.0" height="223.2" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+    <rect x="657.0" y="136.4" width="81.0" height="223.2" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+    <rect x="0" y="204.60000000000002" width="31.500000000000004" height="86.80000000000001" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+    <rect x="706.5" y="204.60000000000002" width="31.500000000000004" height="86.80000000000001" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="3"/>
+  </g>
+  <circle cx="450.0" cy="310.0" r="17" fill="#f8fafc"/>
+  <polygon points="450.0,302.0 457.6,307.5 454.7,316.5 445.3,316.5 442.4,307.5" fill="#0b1410"/>
+</svg>
