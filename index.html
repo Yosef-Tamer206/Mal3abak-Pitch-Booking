@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملعبك | احجز ملعب الكورة في دقايق</title>
+  <meta name="description" content="منصة تجريبية لحجز ملاعب كرة القدم: دور على ملعب، اختار معادك، واحجز مكانك.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="demo-ribbon">نسخة تجريبية للعرض فقط &mdash; كل الملاعب والأسعار والحجوزات غير حقيقية ومحفوظة على جهازك فقط</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#/" class="brand">
+        <img src="favicon.svg" alt="شعار ملعبك" class="brand-logo">
+        <span class="brand-name">ملعبـ<b>ك</b></span>
+      </a>
+      <nav class="main-nav">
+        <a href="#/" data-nav="home">الرئيسية</a>
+        <a href="#/pitches" data-nav="pitches">الملاعب</a>
+        <a href="#/my" data-nav="my">حجوزاتي</a>
+        <a href="#/owner" data-nav="owner">لأصحاب الملاعب</a>
+      </nav>
+      <a href="#/pitches" class="btn btn-primary header-cta">احجز دلوقتي</a>
+      <button class="nav-toggle" id="navToggle" aria-label="القائمة">☰</button>
+    </div>
+  </header>
+
+  <main id="app"><!-- views render here --></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#/" class="brand footer-brand">
+          <img src="favicon.svg" alt="شعار ملعبك" class="brand-logo">
+          <span class="brand-name">ملعبـ<b>ك</b></span>
+        </a>
+        <p class="muted">منصة حجز ملاعب كرة قدم &mdash; نسخة تجريبية لعرض الفكرة والتصميم. أسماء الملاعب والأسعار والمواعيد كلها بيانات افتراضية، والحجوزات محفوظة محليًا على جهازك فقط.</p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <a href="#/pitches">تصفح الملاعب</a>
+        <a href="#/my">حجوزاتي</a>
+        <a href="#/owner">لوحة صاحب الملعب</a>
+      </div>
+      <div>
+        <h4>إزاي بيشتغل؟</h4>
+        <a href="#/how">اختار الملعب</a>
+        <a href="#/how">حدد اليوم والساعة</a>
+        <a href="#/how">استلم كود الحجز</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>تصميم وتطوير <b>يوسف تامر</b> &copy; 2026</span>
+      <span class="muted">Demo build &mdash; no real bookings</span>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
